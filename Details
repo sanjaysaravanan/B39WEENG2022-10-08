@@ -1,0 +1,55 @@
+Topics:
+
+  Document --> HTML file
+
+  DOM --> Document Object Model
+  HTML
+    | ---> HEAD
+            | ---> META, TITLE 
+    | ---> BODY
+            | ---> P, A, DIV, H1
+
+  with the help of dom we can manipualte the content in a website
+
+  DOM - element/node/tag
+
+  getElementById --> why unique ID for all the nodes/elements/tags
+    always returns the first element which matches the id
+
+  style:
+    set any style prop value
+
+  getElementsByClassName:
+    return a htmlcollection with all the elements which has passed classname
+  
+  querySelector vs querySelectorAll:
+
+    querSelector:
+      returns the first matching elements 
+      eg: .common-class ---> return the first element which has classname common-class
+          .common-class > div ---> return first div inside common class
+    
+    querSelectorAll:
+      returns the all matching elements 
+      eg: .common-class ---> return all the elements which has classname common-class
+          .common-class > div ---> return all div elements inside common class
+  
+  setAttribute:
+    set an attribute to element/node/tag
+
+  innerHTML vs innerText ( attributes of a element or node or tag )
+
+    innerHTML --> renders the string value by marking up any tags in string
+    innerText --> renders only the string value without any marking up
+
+  document.createElement
+    accepts tag name as string and create the tag for use
+
+  appendChild vs append
+
+    appendChild ---> takes only element as an arguement and adds as child to the calling tag
+    and returns the appended tag
+
+    append ---> takes one/more elements as arguments and adds all the arguments as child to the calling tag and returns nothing (undefined)
+
+  
