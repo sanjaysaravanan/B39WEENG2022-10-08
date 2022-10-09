@@ -15,6 +15,7 @@ Topics:
 
   getElementById --> why unique ID for all the nodes/elements/tags
     always returns the first element which matches the id
+    eg: var ele = document.getElelmentById('sample-id'); // 
 
   style:
     set any style prop value
@@ -48,7 +49,7 @@ Topics:
   appendChild vs append
 
     appendChild ---> takes only element as an arguement and adds as child to the calling tag
-    and returns the appended tag
+    and returns the appended tag/element
 
     append ---> takes one/more elements as arguments and adds all the arguments as child to the calling tag and returns nothing (undefined)
 
