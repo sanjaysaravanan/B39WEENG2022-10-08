@@ -48,7 +48,7 @@ Topics:
 
   appendChild vs append
 
-    appendChild ---> takes only element as an arguement and adds as child to the calling tag
+    appendChild ---> takes only one element as an arguement and adds as child to the calling tag
     and returns the appended tag/element
 
     append ---> takes one/more elements as arguments and adds all the arguments as child to the calling tag and returns nothing (undefined)
